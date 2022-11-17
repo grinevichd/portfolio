@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4b670b56.css",
+    "main.js": "/portfolio/static/js/main.45fcc523.js",
+    "static/js/787.3d1d08ca.chunk.js": "/portfolio/static/js/787.3d1d08ca.chunk.js",
+    "static/media/TODOLIST.png": "/portfolio/static/media/TODOLIST.2383747599793ed7b67f.png",
+    "static/media/icons8-react.svg": "/portfolio/static/media/icons8-react.e7574af26628c8d8cc52d64e015eb898.svg",
+    "static/media/jest-seeklogo.com.svg": "/portfolio/static/media/jest-seeklogo.com.393f73aa7f3cb64090fd08f821c17fa4.svg",
+    "static/media/linkedin-svgrepo-com.svg": "/portfolio/static/media/linkedin-svgrepo-com.7defd339fd92d3e5fa034b24a5f10ed6.svg",
+    "static/media/icons8-redux.svg": "/portfolio/static/media/icons8-redux.c5ef0cbd5c88c3f96af34f240c381f5c.svg",
+    "static/media/telegram-svgrepo-com.svg": "/portfolio/static/media/telegram-svgrepo-com.94a9ee04055e65d2291a2133f52bad9e.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/icons8-javascript.svg": "/portfolio/static/media/icons8-javascript.2c4ec503447402632078448b9a2fc3c5.svg",
+    "static/media/github-svgrepo-com.svg": "/portfolio/static/media/github-svgrepo-com.17734d8c1ccc010b09ecabb925d24041.svg",
+    "static/media/icons8-typescript.svg": "/portfolio/static/media/icons8-typescript.58fdeec059797b8730abc9160768b38e.svg",
+    "main.4b670b56.css.map": "/portfolio/static/css/main.4b670b56.css.map",
+    "main.45fcc523.js.map": "/portfolio/static/js/main.45fcc523.js.map",
+    "787.3d1d08ca.chunk.js.map": "/portfolio/static/js/787.3d1d08ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b670b56.css",
+    "static/js/main.45fcc523.js"
+  ]
+}
