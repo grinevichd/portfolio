@@ -10,11 +10,17 @@
 }
 
 .photo {
+
     width: 300px;
     height: 400px;
-    background-color: #ffcece;
-    margin: 25px 50px;
+    background-image: url("../assets/image/myPhoto.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 5px 0 5px;
+    z-index: 2
+;
 }
+
 
 .text h1 {
     font-family: 'Nunito', sans-serif;

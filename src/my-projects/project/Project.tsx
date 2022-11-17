@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Project.module.css'
-import styleButton from '../../common/style/Button.module.css'
 
 
 type ProjectPropsType = {

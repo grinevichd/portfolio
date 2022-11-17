@@ -4,7 +4,7 @@ import {Navi} from "./navi/Navi";
 
 export const Header = () => {
     return (
-        <div className={style.header}>
+        <div  className={style.header}>
             <Navi />
         </div>
     );

@@ -8,7 +8,10 @@ import typeScriptIcon from '../assets/image/icons8-typescript.svg'
 import javaScriptIcon from '../assets/image/icons8-javascript.svg'
 import reduxIcon from '../assets/image/icons8-redux.svg'
 import jestIcon from '../assets/image/jest-seeklogo.com.svg'
+import gitIcon from '../assets/image/icons8-git.svg'
+import muiIcon from '../assets/image/icons8-material-ui.svg'
 import {propsStyleGenerator} from "../lib/propsStyleGenerator";
+import {Fade} from "react-awesome-reveal";
 
 export const Skills = () => {
     const react = propsStyleGenerator(reactIcon)
@@ -16,34 +19,49 @@ export const Skills = () => {
     const javaScript = propsStyleGenerator(javaScriptIcon)
     const redux = propsStyleGenerator(reduxIcon)
     const jest = propsStyleGenerator(jestIcon)
+    const git = propsStyleGenerator(gitIcon)
+    const mui = propsStyleGenerator(muiIcon)
     return (
-        <div className={style.skillsBlock}>
+        <div className={style.skillsBlock} id='skills'>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 {/*<h2 className={style.title}>Skills</h2>*/}
-                <Title title={'Skills'}/>
-                <div className={style.skills}>
 
+                <Title title={'Skills'}/>
+                <div className={style.skillsDescription}>I have tried out lots of different technologies and am always open to new things. Here are the ones I have got most experience with:</div>
+                <div className={style.skills}>
+                    <Fade>
                     <Skill title="React"
-                           description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eius harum laudantium mollitia, omnis quidem rem rerum veniam voluptas. Commodi dolore earum esse, expedita magnam maxime vero. Id, recusandae!"}
+
                            style={react}
                     />
                     <Skill title="TypeScript"
-                           description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eius harum laudantium mollitia, omnis quidem rem rerum veniam voluptas. Commodi dolore earum esse, expedita magnam maxime vero. Id, recusandae!"}
+
                            style={typeScript}
                     />
                     <Skill title="JavaScript"
-                           description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eius harum laudantium mollitia, omnis quidem rem rerum veniam voluptas. Commodi dolore earum esse, expedita magnam maxime vero. Id, recusandae!"}
+
                             style={javaScript}
                     />
                     <Skill title="Redux"
-                           description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eius harum laudantium mollitia, omnis quidem rem rerum veniam voluptas. Commodi dolore earum esse, expedita magnam maxime vero. Id, recusandae!"}
+
                             style={redux}
                     />
                     <Skill title="Jest"
-                           description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eius harum laudantium mollitia, omnis quidem rem rerum veniam voluptas. Commodi dolore earum esse, expedita magnam maxime vero. Id, recusandae!"}
+
                             style={jest}
                     />
+                        <Skill title="Git"
+
+                            style={git}
+                    />
+                        <Skill title="Material UI"
+
+                               style={mui}
+                        />
+                    </Fade>
                 </div>
+
+
             </div>
         </div>
     );
