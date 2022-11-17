@@ -1,0 +1,31 @@
+.skill {
+    width: 250px;
+    background-color: #21242b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 25px 50px;
+
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+.skillTitle{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.4;
+
+}
+.description{
+    color: #c8c8c8;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+    margin: 0;
+}

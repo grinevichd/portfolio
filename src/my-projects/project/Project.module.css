@@ -1,0 +1,82 @@
+.project {
+
+    width: 450px;
+    margin: 25px 50px;
+
+}
+
+.projectImgItem {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+
+}
+.projectImgItem::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.3;
+
+}
+
+
+
+.description {
+    padding: 5px;
+
+
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.shortDescription {
+    padding: 5px;
+
+    word-break: break-all;
+    color: #c8c8c8;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+    margin: 0;
+    font-family: 'Poppins', sans-serif
+}
+.projectInfo{
+    padding: 25px 20px;
+    background-color: #21242b;
+}
+.projectBtn{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    background: transparent;
+    padding: 12px 40px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 500px){
+    .project{
+        width: 250px;
+
+    }
+    .projectImgItem{
+        background-position: center center;
+    }
+}

@@ -1,0 +1,144 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #1e2128;
+
+}
+
+.text {
+    margin: 25px 50px;
+    width: 500px;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: #ffcece;
+    margin: 25px 50px;
+}
+
+.text h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+}
+
+.text p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: #fff
+}
+
+.text span {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    color: #fff
+}
+
+.btn {
+    padding: 15px 40px;
+    border-radius: 30px;
+    position: relative;
+    background-color: #1e2128;
+    outline: none;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: 40px
+}
+
+.btn span {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.block {
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1268px) {
+    .block {
+        justify-content: center;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 775px) {
+
+    .text {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 720px) {
+    .mainBlock{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .photo {
+        width: 100%;
+    }
+    .text{
+        margin: 25px 0;
+    }
+    .text h1 {
+        font-size: 9vw;
+    }
+    .text p {
+        font-size: 4vw;
+    }
+}
+@media screen and (max-width: 355px) {
+
+    .photo {
+        width: 100%;
+    }
+    .text{
+        margin: 25px 0;
+    }
+    .text h1 {
+        font-size: 28px;
+    }
+    .text p {
+        font-size: 14px;
+    }
+}
+@media screen and (orientation: landscape) {
+    .mainBlock {
+        height: 100%;
+    }
+}
+@media screen and (min-width: 1265px) and (orientation: landscape) {
+    .mainBlock {
+        height: 100vh;
+    }
+}
+/*@media screen and (orientation:portrait) {*/
+/*    */
+/*}*/
+
+/*@media screen and (max-width : 1395px) {*/
+
+/*    .projects{*/
+/*        justify-content: center;*/
+/*    }*/
+/*}*/

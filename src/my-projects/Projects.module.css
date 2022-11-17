@@ -1,0 +1,47 @@
+.projectsBlock{
+    border-top: 2px solid #292c33;
+    background-color: #1e2128;
+    padding-bottom: 20px;
+}
+.projectContainer{
+    flex-direction: column;
+}
+.projects{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.title{
+    margin: 0 auto 80px;
+}
+
+.title h2{
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0 8px rgb(255 255 255 / 5%);
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0;
+}
+
+@media screen and (max-width : 1144px) {
+    .projects{
+        justify-content: center;
+    }
+}
+@media screen and (max-width : 500px) {
+
+    .projectContainer{
+        flex-direction: inherit;
+    }
+}
+@media screen and (max-width : 1395px) {
+
+    .projects{
+        justify-content: center;
+    }
+}

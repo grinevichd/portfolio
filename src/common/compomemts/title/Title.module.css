@@ -1,0 +1,24 @@
+
+.title{
+    margin: 0 auto 80px;
+}
+
+.title h2{
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0 8px rgb(255 255 255 / 5%);
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+@media screen and (max-width : 575px) {
+
+    .title h2{
+        font-size: 14vw;
+        text-align: center;
+    }
+}

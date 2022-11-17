@@ -1,0 +1,26 @@
+.navi {
+
+   width: 300px;
+   display: flex;
+   justify-content: space-around;
+
+   font-weight: 500;
+   color: #fff;
+   padding: 15px 7px;
+   margin: 10px 15px;
+
+}
+.navi a{
+   display: inline-block;
+   position: relative;
+   text-decoration: none;
+   color: #fff;
+   font-size: 12px;
+
+}
+.navi a:after{
+   content: "";
+   border-right: 2px solid #9735cb;
+   padding: 5px
+
+}

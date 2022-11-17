@@ -1,0 +1,15 @@
+.work{
+
+    min-height: 25vh;
+    background-color: #f6e990;
+}
+.blockWork{
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    background-color: #bff6f6;
+    text-align: center;
+}
