@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0be80565.css",
+    "main.css": "/portfolio/static/css/main.ead91d1d.css",
     "main.js": "/portfolio/static/js/main.56b07e22.js",
     "static/js/787.3d1d08ca.chunk.js": "/portfolio/static/js/787.3d1d08ca.chunk.js",
-    "static/media/myPhoto.jpg": "/portfolio/static/media/myPhoto.f645716635957c69e8aa.jpg",
+    "static/media/myPhoto.jpg": "/portfolio/static/media/myPhoto.5a93223226ac77e0e11d.jpg",
     "static/media/TODOLIST.png": "/portfolio/static/media/TODOLIST.2383747599793ed7b67f.png",
     "static/media/icons8-react.svg": "/portfolio/static/media/icons8-react.e7574af26628c8d8cc52d64e015eb898.svg",
     "static/media/jest-seeklogo.com.svg": "/portfolio/static/media/jest-seeklogo.com.393f73aa7f3cb64090fd08f821c17fa4.svg",
@@ -17,12 +17,12 @@
     "static/media/icons8-material-ui.svg": "/portfolio/static/media/icons8-material-ui.87578f3359b2854b375a80f816ca44b2.svg",
     "static/media/icons8-typescript.svg": "/portfolio/static/media/icons8-typescript.58fdeec059797b8730abc9160768b38e.svg",
     "static/media/arrow.svg": "/portfolio/static/media/arrow.cf1c6b6a204868717d5859ac67420dd6.svg",
-    "main.0be80565.css.map": "/portfolio/static/css/main.0be80565.css.map",
+    "main.ead91d1d.css.map": "/portfolio/static/css/main.ead91d1d.css.map",
     "main.56b07e22.js.map": "/portfolio/static/js/main.56b07e22.js.map",
     "787.3d1d08ca.chunk.js.map": "/portfolio/static/js/787.3d1d08ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0be80565.css",
+    "static/css/main.ead91d1d.css",
     "static/js/main.56b07e22.js"
   ]
 }
