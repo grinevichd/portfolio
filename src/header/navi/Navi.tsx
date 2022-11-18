@@ -10,8 +10,8 @@ export const Navi = () => {
 
     return (
         <div className={style.navi}>
-            <a  href="">Home</a>
-            <Scroll.Link to={'skills'} smooth >Skills</Scroll.Link>
+            <a>Home</a>
+            <Scroll.Link to={'skills'} smooth activeClass={style.active} >Skills</Scroll.Link>
             <Scroll.Link to={'projects'} smooth >Projects</Scroll.Link>
             <Scroll.Link to={'contact'} smooth >Contact</Scroll.Link>
         </div>
