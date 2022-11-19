@@ -1,9 +1,14 @@
 .project {
 
-    width: 450px;
+    width: 400px;
     margin: 25px 50px;
-
+    transition: all 0.3s ease-in-out 0s;
 }
+
+.project:hover {
+    transform: scale(1.2);
+}
+
 
 .projectImgItem {
     width: 100%;
@@ -14,11 +19,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-
+    background-position: 23% 50%;
 
 
 }
-.projectImgItem::before{
+
+.projectImgItem::before {
     content: "";
     position: absolute;
     left: 0;
@@ -28,8 +34,14 @@
     background-color: black;
     opacity: 0.3;
 
+
 }
 
+.projectImgItem:hover::before {
+    background-color: #1e2128;
+    opacity: 0.6;
+
+}
 
 
 .description {
@@ -46,8 +58,6 @@
 
 .shortDescription {
     padding: 5px;
-
-    word-break: break-all;
     color: #c8c8c8;
     font-size: 15px;
     font-weight: 300;
@@ -55,28 +65,48 @@
     margin: 0;
     font-family: 'Poppins', sans-serif
 }
-.projectInfo{
+
+.projectInfo {
     padding: 25px 20px;
     background-color: #21242b;
 }
-.projectBtn{
+
+.buttonContainer {
+    display : flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.projectBtn {
     position: relative;
     z-index: 1;
     color: #fff;
     background: transparent;
-    padding: 12px 40px;
+    padding: 12px 35px;
     border: 1px solid #fff;
     overflow: hidden;
     cursor: pointer;
+    width: 108px;
+    opacity: 0;
+
 
 }
 
-@media screen and (max-width: 500px){
-    .project{
+.project:hover .projectBtn {
+    opacity: 1;
+}
+/*.projectBtn:hover{*/
+/*    border: 1px solid rebeccapurple;*/
+/*}*/
+
+@media screen and (max-width: 500px) {
+    .project {
         width: 250px;
 
     }
-    .projectImgItem{
+
+    .projectImgItem {
         background-position: center center;
     }
 }

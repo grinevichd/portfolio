@@ -5,7 +5,6 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export function Notification(){
 
-
     return (
         <div>
 
