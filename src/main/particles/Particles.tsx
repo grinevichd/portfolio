@@ -19,7 +19,7 @@ export const Particle = () => {
             loaded={particlesLoaded}
             options={{
 
-                backgroundMode:false,
+
                 background: {
                     color: {
                         value: "inherit",
@@ -91,7 +91,7 @@ export const Particle = () => {
                     },
                 },
                 detectRetina: true,
-                fullScreen: false
+
 
             }}
         />

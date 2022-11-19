@@ -10,6 +10,7 @@ import img from './assets/image/arrow.svg'
 
 
 function App() {
+
     const style = {
         background : "#fff",
         borderRadius : "50%",
@@ -19,6 +20,7 @@ function App() {
         backgroundRepeat : 'no-repeat'
     }
     return (
+
         <div className="App">
             <Main/>
             <Skills/>
@@ -26,7 +28,10 @@ function App() {
             <Сontacts/>
             <Footer/>
             <ScrollToTop smooth className={'App'} style={style} svgPath={img}/>
+
+
         </div>
+
 
 
     );

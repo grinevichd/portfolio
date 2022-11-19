@@ -27,9 +27,11 @@ export const Skills = () => {
                 {/*<h2 className={style.title}>Skills</h2>*/}
 
                 <Title title={'Skills'}/>
+                <Fade direction={"left"}>
                 <div className={style.skillsDescription}>I have tried out lots of different technologies and am always open to new things. Here are the ones I have got most experience with:</div>
+                </Fade>
                 <div className={style.skills}>
-                    <Fade>
+
                     <Skill title="React"
 
                            style={react}
@@ -58,7 +60,7 @@ export const Skills = () => {
 
                                style={mui}
                         />
-                    </Fade>
+
                 </div>
 
 

@@ -16,8 +16,10 @@ export const Projects = () => {
 
                 <Title title={"Projects"}/>
                 <div className={style.projects}>
-                    <Fade>
+                    <Fade direction={"left"}>
                         <Project style={todo} description="Todolist" shortDescription="Краткое описание"/>
+                    </Fade >
+                    <Fade direction={"right"}>
                         <Project description="Social network" shortDescription="Краткое описание"/>
                     </Fade>
                 </div>
