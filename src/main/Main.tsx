@@ -5,6 +5,7 @@ import {Header} from "../header/Header";
 import {Particle} from './particles/Particles';
 import {Fade} from 'react-awesome-reveal';
 import Tilt from 'react-parallax-tilt';
+// @ts-ignore
 import cv from '../assets/Cv/Cv.pdf'
 
 export const Main = () => {
