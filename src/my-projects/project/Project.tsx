@@ -6,6 +6,8 @@ type ProjectPropsType = {
     description : string
     shortDescription : string
     style?: StyleType
+    code : string
+    demo : string
 
 }
 export type StyleType = {
@@ -18,8 +20,8 @@ export const Project = (props:ProjectPropsType) => {
         <div className={style.project}>
             <div className={style.projectImgItem} style={props.style}>
                 <div className={style.buttonContainer}>
-                <a href="#"><button className={style.projectBtn} >Demo</button></a>
-                <a href="#"><button className={style.projectBtn} >Code</button></a>
+                <a href={props.demo}><button className={style.projectBtn} >Demo</button></a>
+                <a href={props.code}><button className={style.projectBtn} >Code</button></a>
                 </div>
             </div>
             <div className={style.projectInfo}>
